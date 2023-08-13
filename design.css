@@ -1,0 +1,56 @@
+*{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+header{
+    text-align:center;
+}
+
+.contains{
+    height:100px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.div_t{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#expense-table{
+    border:1px solid black;
+    width:900px;
+    
+}
+
+#th_expense{
+    width:500px;
+}
+
+#th_date{
+    width:200px;
+}
+
+#th_amount{
+    width:200px;
+}
+
+td {
+    border:1px solid black;
+}
+
+#name{
+    margin-left:5px;
+}
+
+#date{
+    margin-left:5px;
+}
+
+#amount{
+    margin-left:5px;
+}
