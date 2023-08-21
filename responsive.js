@@ -27,3 +27,12 @@ let eamount=document.querySelector('#amount');
     eamount.value="";
 }
 
+function removerow(rid){
+    let idn=rid.parentNode.parentNode.rowIndex;
+    document.getElementById("expense-table").deleteRow(idn);
+}
+
+function calculate_sum(){
+    
+}
+
