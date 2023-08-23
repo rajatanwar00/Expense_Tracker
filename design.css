@@ -48,6 +48,17 @@ td {
     border:1px solid black;
 }
 
+#sum{
+    height:20px;
+
+}
+
+#texpense{
+    height:20px;
+}
+
+/*input fields*/
+
 #name{
     margin-left:5px;
 }

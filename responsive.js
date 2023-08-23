@@ -34,6 +34,14 @@ function removerow(rid){
 }
 
 function calculate_sum(){
-    
+    var t=document.getElementById("expense-table");
+    var sum=0;
+
+    for(var i=1,row;row=t.rows[i];i++){
+        sum+=parseInt(t.rows[i].cells[3].innerHTML);
+    }
+
+    var field=document.getElementById("texpense");
+    field.innerHTML=sum.toString();
 }
 
