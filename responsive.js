@@ -26,6 +26,8 @@ let eamount=document.querySelector('#amount');
     ename.value="";
     edate.value="";
     eamount.value="";
+
+    calculate_sum();
 }
 
 function removerow(rid){
