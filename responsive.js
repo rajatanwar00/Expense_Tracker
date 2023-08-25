@@ -31,17 +31,22 @@ let eamount=document.querySelector('#amount');
 function removerow(rid){
     let idn=rid.parentNode.parentNode.rowIndex;
     document.getElementById("expense-table").deleteRow(idn);
+    calculate_sum();
 }
 
 function calculate_sum(){
-    var t=document.getElementById("expense-table");
+    
+    var t = document.getElementById("expense-table");
+    
     var sum=0;
-
+    
     for(var i=1,row;row=t.rows[i];i++){
-        sum+=parseInt(t.rows[i].cells[3].innerHTML);
+        
+        sum+=parseInt(row.cells[2].innerHTML);
     }
 
+    
     var field=document.getElementById("texpense");
-    field.innerHTML=sum.toString();
+    field.value=sum;
 }
 

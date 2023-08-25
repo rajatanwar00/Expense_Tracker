@@ -3,8 +3,9 @@
     margin-right:0px;
 }
 
-header{
+#header{
     text-align:center;
+    margin-bottom:100px;
 }
 
 .contains{
@@ -15,6 +16,8 @@ header{
     justify-content: space-evenly;
     
 }
+
+/*Table*/
 
 .div_t{
     display:flex;
@@ -37,6 +40,7 @@ header{
 
 #th_amount{
     width:200px;
+    
 }
 
 #th_remove{
@@ -47,6 +51,8 @@ header{
 td {
     border:1px solid black;
 }
+
+/*Sum Fields*/
 
 #sum{
     height:20px;
@@ -69,4 +75,40 @@ td {
 
 #amount{
     margin-left:5px;
+}
+
+/**/
+
+#feedback{
+    margin-top:400px;
+    background-color: rgb(237, 237, 237);
+    
+}
+
+#feedback_header{
+    text-align: center;
+    padding-top:10px;
+}
+
+#feedback_div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:50px;
+    
+}
+
+#feedback_box{
+    width:80%;    
+    height:200px;
+    margin-bottom:100px;
+}
+
+#feedback_submit{
+    height:50px;
+    width:100px;
+    margin-bottom:100px;
+}
+
+p{
+    margin-left: 5px;
 }

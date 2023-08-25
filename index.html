@@ -8,7 +8,7 @@
     <body>
         <link rel="stylesheet" href="design.css">
         <script src="responsive.js"></script>
-        <header class="h">
+        <header id="header">
             <h2>Expense Tracker</h2>
         </header>
         
@@ -38,7 +38,17 @@
                 
             </table>
             <input type="button" value="Generate Sum" id="sum" onclick="calculate_sum()">
-            <input type="text"  id="texpense">
+            <input type="number"  id="texpense">
         </div>
+
+        <footer id="feedback">
+            <h3 id="feedback_header">Feedback</h3>
+            <p>Please provide your valuable feedback!!</p>
+            <div id="feedback_div">
+                <input type="text" id="feedback_box">
+                <input type="submit" value="Submit" id="feedback_submit">
+            </div>
+            
+        </footer>
     </body>
 </html>
