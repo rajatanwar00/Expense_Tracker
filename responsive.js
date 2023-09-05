@@ -18,7 +18,7 @@ let eamount=document.querySelector('#amount');
                         <td>${adname}</td>
                         <td>${addate}</td>
                         <td>${adamount}</td>
-                        <td><input type="button" value="remove" onclick="removerow(this)" ></td>
+                        <td><input type="button" value="Remove" onclick="removerow(this)" ></td>
                     </tr>`;
 
     tablen.innerHTML +=template;
